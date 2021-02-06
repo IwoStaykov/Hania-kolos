@@ -15,7 +15,7 @@ for i in range(req_list[1]):
         teams[match_note[0]][0] += 1 #dodaj 1 do wygranych dla pierwszego gracza
     else:
         teams[match_note[1]][0] += 1 #dodaj 1 do wygranych dla drugiego gracza
-    teams[match_note[0][1]] += 1
+    teams[match_note[0][1]] += 1 #dodaj 1 do rozegranych meczy
     teams[match_note[1][1]] += 1
 
 for i in range(req_list[0]):
