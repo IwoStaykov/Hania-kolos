@@ -23,5 +23,3 @@ for i in range(req_list[0]):
 
 print(teams['colorado'])
 print(teams['new york'])
-
-printf("hello Hania")
